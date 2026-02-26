@@ -29,4 +29,6 @@ coverage/
 
 # Optional: build output
 build/
+
+# Docker Files
 .devcontainer.json
