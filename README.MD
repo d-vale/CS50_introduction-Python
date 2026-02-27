@@ -2,7 +2,7 @@
 
 [![CS50P](https://img.shields.io/badge/CS50P-Harvard-crimson)](https://cs50.harvard.edu/python/)
 [![edX](https://img.shields.io/badge/Platform-edX-blue)](https://www.edx.org/learn/python/harvard-university-cs50-s-introduction-to-programming-with-python)
-[![Progress](https://img.shields.io/badge/Progress-20%25-yellow)](#progression)
+[![Progress](https://img.shields.io/badge/Progress-30%25-yellow)](#progression)
 
 ## 📖 À propos
 
@@ -64,7 +64,7 @@ Concepts avancés : `set`, compréhensions, générateurs, itérateurs, lambda, 
 | ---------- | ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
 | **Week 0** | Functions, Variables    | [`indoor.py`](week0/indoor.py), [`playback.py`](week0/playback.py), [`faces.py`](week0/faces.py), [`einstein.py`](week0/einstein.py), [`tip.py`](week0/tip.py)                                                                         | ✅ Terminé    |
 | **Week 1** | Conditionals            | [`deep.py`](week1/deep.py), [`bank.py`](week1/bank.py), [`extensions.py`](week1/extensions.py), [`interpreter.py`](week1/interpreter.py), [`meal.py`](week1/meal.py)                                                                   | ✅ Terminé    |
-| **Week 2** | Loops                   | _À venir_                                                                                                                                                                                                                              | ⏳ À venir    |
+| **Week 2** | Loops                   | [`camel.py`](week2/camel.py), [`coke.py`](week2/coke.py), [`twttr.py`](week2/twttr.py), [`plates.py`](week2/plates.py), [`nutrition.py`](week2/nutrition.py)                                                                          | ✅ Terminé    |
 | **Week 3** | Exceptions              | _À venir_                                                                                                                                                                                                                              | ⏳ À venir    |
 | **Week 4** | Libraries               | _À venir_                                                                                                                                                                                                                              | ⏳ À venir    |
 | **Week 5** | Unit Tests              | _À venir_                                                                                                                                                                                                                              | ⏳ À venir    |
@@ -103,13 +103,13 @@ Concepts avancés : `set`, compréhensions, générateurs, itérateurs, lambda, 
 
 **📝 Problem Set :** [https://cs50.harvard.edu/python/2022/psets/2/](https://cs50.harvard.edu/python/2022/psets/2/)
 
-| Exercice            | Description                                                         | Fichier   | Difficulté |
-| ------------------- | ------------------------------------------------------------------- | --------- | ---------- |
-| **camelCase**       | Convertit du snake_case en camelCase                                | _À venir_ | —          |
-| **Coke Machine**    | Simule un distributeur qui accepte les pièces de monnaie            | _À venir_ | —          |
-| **twttr**           | Supprime les voyelles d'un texte comme sur Twitter (sms era)        | _À venir_ | —          |
-| **Vanity Plates**   | Valide des plaques d'immatriculation personnalisées selon des règles | _À venir_ | —          |
-| **Nutrition Facts** | Affiche les calories d'un aliment à partir d'une base de données    | _À venir_ | —          |
+| Exercice            | Description                                                         | Fichier                                  | Difficulté |
+| ------------------- | ------------------------------------------------------------------- | ---------------------------------------- | ---------- |
+| **camelCase**       | Convertit du snake_case en camelCase                                | [`camel.py`](week2/camel.py)             | ⭐⭐       |
+| **Coke Machine**    | Simule un distributeur qui accepte les pièces de monnaie            | [`coke.py`](week2/coke.py)               | ⭐⭐       |
+| **twttr**           | Supprime les voyelles d'un texte comme sur Twitter (sms era)        | [`twttr.py`](week2/twttr.py)             | ⭐         |
+| **Vanity Plates**   | Valide des plaques d'immatriculation personnalisées selon des règles | [`plates.py`](week2/plates.py)           | ⭐⭐⭐     |
+| **Nutrition Facts** | Affiche les calories d'un aliment à partir d'une base de données    | [`nutrition.py`](week2/nutrition.py)     | ⭐       |
 
 ### Week 3 - Exceptions
 
