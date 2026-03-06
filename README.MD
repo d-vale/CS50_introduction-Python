@@ -2,7 +2,7 @@
 
 [![CS50P](https://img.shields.io/badge/CS50P-Harvard-crimson)](https://cs50.harvard.edu/python/)
 [![edX](https://img.shields.io/badge/Platform-edX-blue)](https://www.edx.org/learn/python/harvard-university-cs50-s-introduction-to-programming-with-python)
-[![Progress](https://img.shields.io/badge/Progress-30%25-yellow)](#progression)
+[![Progress](https://img.shields.io/badge/Progress-50%25-yellow)](#progression)
 
 ## 📖 À propos
 
@@ -65,8 +65,8 @@ Concepts avancés : `set`, compréhensions, générateurs, itérateurs, lambda, 
 | **Week 0** | Functions, Variables    | [`indoor.py`](week0/indoor.py), [`playback.py`](week0/playback.py), [`faces.py`](week0/faces.py), [`einstein.py`](week0/einstein.py), [`tip.py`](week0/tip.py)                                                                         | ✅ Terminé    |
 | **Week 1** | Conditionals            | [`deep.py`](week1/deep.py), [`bank.py`](week1/bank.py), [`extensions.py`](week1/extensions.py), [`interpreter.py`](week1/interpreter.py), [`meal.py`](week1/meal.py)                                                                   | ✅ Terminé    |
 | **Week 2** | Loops                   | [`camel.py`](week2/camel.py), [`coke.py`](week2/coke.py), [`twttr.py`](week2/twttr.py), [`plates.py`](week2/plates.py), [`nutrition.py`](week2/nutrition.py)                                                                          | ✅ Terminé    |
-| **Week 3** | Exceptions              | _À venir_                                                                                                                                                                                                                              | ⏳ À venir    |
-| **Week 4** | Libraries               | _À venir_                                                                                                                                                                                                                              | ⏳ À venir    |
+| **Week 3** | Exceptions              | [`fuel.py`](week3/fuel.py), [`taqueria.py`](week3/taqueria.py), [`grocery.py`](week3/grocery.py), [`outdated.py`](week3/outdated.py)                                                                                                   | ✅ Terminé    |
+| **Week 4** | Libraries               | [`emojize.py`](week4/emojize.py), [`figlet.py`](week4/figlet.py), [`adieu.py`](week4/adieu.py), [`game.py`](week4/game.py), [`professor.py`](week4/professor.py), [`bitcoin.py`](week4/bitcoin.py)                                    | ✅ Terminé    |
 | **Week 5** | Unit Tests              | _À venir_                                                                                                                                                                                                                              | ⏳ À venir    |
 | **Week 6** | File I/O                | _À venir_                                                                                                                                                                                                                              | ⏳ À venir    |
 | **Week 7** | Regular Expressions     | _À venir_                                                                                                                                                                                                                              | ⏳ À venir    |
@@ -115,25 +115,25 @@ Concepts avancés : `set`, compréhensions, générateurs, itérateurs, lambda, 
 
 **📝 Problem Set :** [https://cs50.harvard.edu/python/2022/psets/3/](https://cs50.harvard.edu/python/2022/psets/3/)
 
-| Exercice              | Description                                                          | Fichier   | Difficulté |
-| --------------------- | -------------------------------------------------------------------- | --------- | ---------- |
-| **Fuel Gauge**        | Affiche le niveau de carburant en pourcentage avec gestion d'erreurs | _À venir_ | —          |
-| **Felipe's Taqueria** | Système de commande d'une taqueria avec gestion des entrées invalides | _À venir_ | —          |
-| **Grocery List**      | Gère une liste de courses triée et en majuscules                     | _À venir_ | —          |
-| **Outdated**          | Convertit des dates en format ISO 8601 avec validation               | _À venir_ | —          |
+| Exercice              | Description                                                          | Fichier                                    | Difficulté |
+| --------------------- | -------------------------------------------------------------------- | ------------------------------------------ | ---------- |
+| **Fuel Gauge**        | Affiche le niveau de carburant en pourcentage avec gestion d'erreurs | [`fuel.py`](week3/fuel.py)                 | ⭐⭐       |
+| **Felipe's Taqueria** | Système de commande d'une taqueria avec gestion des entrées invalides | [`taqueria.py`](week3/taqueria.py)         | ⭐⭐       |
+| **Grocery List**      | Gère une liste de courses triée et en majuscules                     | [`grocery.py`](week3/grocery.py)           | ⭐         |
+| **Outdated**          | Convertit des dates en format ISO 8601 avec validation               | [`outdated.py`](week3/outdated.py)         | ⭐⭐⭐     |
 
 ### Week 4 - Libraries
 
 **📝 Problem Set :** [https://cs50.harvard.edu/python/2022/psets/4/](https://cs50.harvard.edu/python/2022/psets/4/)
 
-| Exercice                | Description                                                        | Fichier   | Difficulté |
-| ----------------------- | ------------------------------------------------------------------ | --------- | ---------- |
-| **Emojize**             | Convertit des codes texte en emojis avec la bibliothèque `emoji`   | _À venir_ | —          |
-| **Frank, Ian and Glen** | Génère du texte en ASCII art avec la bibliothèque `pyfiglet`       | _À venir_ | —          |
-| **Adieu, Adieu**        | Formate une liste de noms avec la bonne conjonction grammaticale   | _À venir_ | —          |
-| **Guessing Game**       | Jeu de devinette avec `random` et validation des entrées           | _À venir_ | —          |
-| **Little Professor**    | Générateur de quiz de maths pour enfants avec `random`             | _À venir_ | —          |
-| **Bitcoin Price Index** | Récupère le prix du Bitcoin via l'API CoinDesk avec `requests`     | _À venir_ | —          |
+| Exercice                | Description                                                        | Fichier                                      | Difficulté |
+| ----------------------- | ------------------------------------------------------------------ | -------------------------------------------- | ---------- |
+| **Emojize**             | Convertit des codes texte en emojis avec la bibliothèque `emoji`   | [`emojize.py`](week4/emojize.py)             | ⭐         |
+| **Frank, Ian and Glen** | Génère du texte en ASCII art avec la bibliothèque `pyfiglet`       | [`figlet.py`](week4/figlet.py)               | ⭐⭐       |
+| **Adieu, Adieu**        | Formate une liste de noms avec la bonne conjonction grammaticale   | [`adieu.py`](week4/adieu.py)                 | ⭐⭐       |
+| **Guessing Game**       | Jeu de devinette avec `random` et validation des entrées           | [`game.py`](week4/game.py)                   | ⭐⭐       |
+| **Little Professor**    | Générateur de quiz de maths pour enfants avec `random`             | [`professor.py`](week4/professor.py)         | ⭐⭐⭐     |
+| **Bitcoin Price Index** | Récupère le prix du Bitcoin via une API externe avec `requests`    | [`bitcoin.py`](week4/bitcoin.py)             | ⭐⭐⭐     |
 
 ### Week 5 - Unit Tests
 
@@ -250,4 +250,4 @@ Concepts avancés : `set`, compréhensions, générateurs, itérateurs, lambda, 
 
 ---
 
-_Dernière mise à jour : Février 2026_
+_Dernière mise à jour : Mars 2026_

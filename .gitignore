@@ -32,3 +32,4 @@ build/
 
 # Docker Files
 .devcontainer.json
+.claude
