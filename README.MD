@@ -2,7 +2,7 @@
 
 [![CS50P](https://img.shields.io/badge/CS50P-Harvard-crimson)](https://cs50.harvard.edu/python/)
 [![edX](https://img.shields.io/badge/Platform-edX-blue)](https://www.edx.org/learn/python/harvard-university-cs50-s-introduction-to-programming-with-python)
-[![Progress](https://img.shields.io/badge/Progress-50%25-yellow)](#progression)
+[![Progress](https://img.shields.io/badge/Progress-60%25-yellowgreen)](#progression)
 
 ## 📖 À propos
 
@@ -67,7 +67,7 @@ Concepts avancés : `set`, compréhensions, générateurs, itérateurs, lambda, 
 | **Week 2** | Loops                   | [`camel.py`](week2/camel.py), [`coke.py`](week2/coke.py), [`twttr.py`](week2/twttr.py), [`plates.py`](week2/plates.py), [`nutrition.py`](week2/nutrition.py)                                                                          | ✅ Terminé    |
 | **Week 3** | Exceptions              | [`fuel.py`](week3/fuel.py), [`taqueria.py`](week3/taqueria.py), [`grocery.py`](week3/grocery.py), [`outdated.py`](week3/outdated.py)                                                                                                   | ✅ Terminé    |
 | **Week 4** | Libraries               | [`emojize.py`](week4/emojize.py), [`figlet.py`](week4/figlet.py), [`adieu.py`](week4/adieu.py), [`game.py`](week4/game.py), [`professor.py`](week4/professor.py), [`bitcoin.py`](week4/bitcoin.py)                                    | ✅ Terminé    |
-| **Week 5** | Unit Tests              | _À venir_                                                                                                                                                                                                                              | ⏳ À venir    |
+| **Week 5** | Unit Tests              | [`test_twttr.py`](week5/test_twttr/test_twttr.py), [`test_bank.py`](week5/test_bank/test_bank.py), [`test_plates.py`](week5/test_plates/test_plates.py), [`test_fuel.py`](week5/test_fuel/test_fuel.py)                               | ✅ Terminé    |
 | **Week 6** | File I/O                | _À venir_                                                                                                                                                                                                                              | ⏳ À venir    |
 | **Week 7** | Regular Expressions     | _À venir_                                                                                                                                                                                                                              | ⏳ À venir    |
 | **Week 8** | Object-Oriented Prog.   | _À venir_                                                                                                                                                                                                                              | ⏳ À venir    |
@@ -139,12 +139,12 @@ Concepts avancés : `set`, compréhensions, générateurs, itérateurs, lambda, 
 
 **📝 Problem Set :** [https://cs50.harvard.edu/python/2022/psets/5/](https://cs50.harvard.edu/python/2022/psets/5/)
 
-| Exercice                         | Description                                                   | Fichier   | Difficulté |
-| -------------------------------- | ------------------------------------------------------------- | --------- | ---------- |
-| **Testing my twttr**             | Tests unitaires pour le programme de suppression de voyelles  | _À venir_ | —          |
-| **Back to the Bank**             | Tests pour le programme de frais bancaires selon la salutation | _À venir_ | —          |
-| **Re-requesting a Vanity Plate** | Tests pour la validation des plaques d'immatriculation        | _À venir_ | —          |
-| **Refueling**                    | Tests pour le programme de jauge de carburant                 | _À venir_ | —          |
+| Exercice                         | Description                                                    | Fichier                                                    | Difficulté |
+| -------------------------------- | -------------------------------------------------------------- | ---------------------------------------------------------- | ---------- |
+| **Testing my twttr**             | Tests unitaires pour le programme de suppression de voyelles   | [`test_twttr.py`](week5/test_twttr/test_twttr.py)         | ⭐       |
+| **Back to the Bank**             | Tests pour le programme de frais bancaires selon la salutation | [`test_bank.py`](week5/test_bank/test_bank.py)            | ⭐       |
+| **Re-requesting a Vanity Plate** | Tests pour la validation des plaques d'immatriculation         | [`test_plates.py`](week5/test_plates/test_plates.py)      | ⭐     |
+| **Refueling**                    | Tests pour le programme de jauge de carburant                  | [`test_fuel.py`](week5/test_fuel/test_fuel.py)            | ⭐       |
 
 ### Week 6 - File I/O
 
