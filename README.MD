@@ -2,7 +2,7 @@
 
 [![CS50P](https://img.shields.io/badge/CS50P-Harvard-crimson)](https://cs50.harvard.edu/python/)
 [![edX](https://img.shields.io/badge/Platform-edX-blue)](https://www.edx.org/learn/python/harvard-university-cs50-s-introduction-to-programming-with-python)
-[![Progress](https://img.shields.io/badge/Progress-70%25-yellowgreen)](#progression)
+[![Progress](https://img.shields.io/badge/Progress-80%25-green)](#progression)
 
 ## 📖 À propos
 
@@ -69,7 +69,7 @@ Concepts avancés : `set`, compréhensions, générateurs, itérateurs, lambda, 
 | **Week 4** | Libraries               | [`emojize.py`](week4/emojize.py), [`figlet.py`](week4/figlet.py), [`adieu.py`](week4/adieu.py), [`game.py`](week4/game.py), [`professor.py`](week4/professor.py), [`bitcoin.py`](week4/bitcoin.py)                                    | ✅ Terminé    |
 | **Week 5** | Unit Tests              | [`test_twttr.py`](week5/test_twttr/test_twttr.py), [`test_bank.py`](week5/test_bank/test_bank.py), [`test_plates.py`](week5/test_plates/test_plates.py), [`test_fuel.py`](week5/test_fuel/test_fuel.py)                               | ✅ Terminé    |
 | **Week 6** | File I/O                | [`lines.py`](week6/lines.py), [`pizza.py`](week6/pizza.py), [`scourgify.py`](week6/scourgify.py), [`shirt.py`](week6/shirt.py)                                                                                                        | ✅ Terminé    |
-| **Week 7** | Regular Expressions     | _À venir_                                                                                                                                                                                                                              | ⏳ À venir    |
+| **Week 7** | Regular Expressions     | [`numb3rs.py`](week7/numb3rs/numb3rs.py), [`watch.py`](week7/watch/watch.py), [`working.py`](week7/working/working.py), [`um.py`](week7/um/um.py), [`response.py`](week7/response/response.py)                                        | ✅ Terminé    |
 | **Week 8** | Object-Oriented Prog.   | _À venir_                                                                                                                                                                                                                              | ⏳ À venir    |
 | **Week 9** | Et Cetera / Final Proj. | _À venir_                                                                                                                                                                                                                              | ⏳ À venir    |
 
@@ -161,13 +161,13 @@ Concepts avancés : `set`, compréhensions, générateurs, itérateurs, lambda, 
 
 **📝 Problem Set :** [https://cs50.harvard.edu/python/2022/psets/7/](https://cs50.harvard.edu/python/2022/psets/7/)
 
-| Exercice                     | Description                                                           | Fichier   | Difficulté |
-| ---------------------------- | --------------------------------------------------------------------- | --------- | ---------- |
-| **NUMB3RS**                  | Valide des adresses IPv4 avec des expressions régulières              | _À venir_ | —          |
-| **Watch on YouTube**         | Extrait l'URL d'intégration d'une vidéo YouTube depuis un iframe HTML | _À venir_ | —          |
-| **Working 9 to 5**           | Valide et convertit des horaires de travail en format standard        | _À venir_ | —          |
-| **Regular, um, Expressions** | Supprime les hésitations ("um") d'une phrase avec `re`                | _À venir_ | —          |
-| **Response Validation**      | Valide les réponses Oui/Non d'un utilisateur de façon flexible        | _À venir_ | —          |
+| Exercice                     | Description                                                           | Fichier                                                          | Difficulté |
+| ---------------------------- | --------------------------------------------------------------------- | ---------------------------------------------------------------- | ---------- |
+| **NUMB3RS**                  | Valide des adresses IPv4 avec des expressions régulières              | [`numb3rs.py`](week7/numb3rs/numb3rs.py)                        | ⭐⭐       |
+| **Watch on YouTube**         | Extrait l'URL d'intégration d'une vidéo YouTube depuis un iframe HTML | [`watch.py`](week7/watch/watch.py)                               | ⭐⭐       |
+| **Working 9 to 5**           | Valide et convertit des horaires de travail en format standard        | [`working.py`](week7/working/working.py)                         | ⭐⭐⭐     |
+| **Regular, um, Expressions** | Supprime les hésitations ("um") d'une phrase avec `re`                | [`um.py`](week7/um/um.py)                                        | ⭐⭐       |
+| **Response Validation**      | Valide les réponses Oui/Non d'un utilisateur de façon flexible        | [`response.py`](week7/response/response.py)                      | ⭐         |
 
 ### Week 8 - Object-Oriented Programming
 
