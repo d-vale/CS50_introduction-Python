@@ -2,7 +2,7 @@
 
 [![CS50P](https://img.shields.io/badge/CS50P-Harvard-crimson)](https://cs50.harvard.edu/python/)
 [![edX](https://img.shields.io/badge/Platform-edX-blue)](https://www.edx.org/learn/python/harvard-university-cs50-s-introduction-to-programming-with-python)
-[![Progress](https://img.shields.io/badge/Progress-60%25-yellowgreen)](#progression)
+[![Progress](https://img.shields.io/badge/Progress-70%25-yellowgreen)](#progression)
 
 ## 📖 À propos
 
@@ -68,7 +68,7 @@ Concepts avancés : `set`, compréhensions, générateurs, itérateurs, lambda, 
 | **Week 3** | Exceptions              | [`fuel.py`](week3/fuel.py), [`taqueria.py`](week3/taqueria.py), [`grocery.py`](week3/grocery.py), [`outdated.py`](week3/outdated.py)                                                                                                   | ✅ Terminé    |
 | **Week 4** | Libraries               | [`emojize.py`](week4/emojize.py), [`figlet.py`](week4/figlet.py), [`adieu.py`](week4/adieu.py), [`game.py`](week4/game.py), [`professor.py`](week4/professor.py), [`bitcoin.py`](week4/bitcoin.py)                                    | ✅ Terminé    |
 | **Week 5** | Unit Tests              | [`test_twttr.py`](week5/test_twttr/test_twttr.py), [`test_bank.py`](week5/test_bank/test_bank.py), [`test_plates.py`](week5/test_plates/test_plates.py), [`test_fuel.py`](week5/test_fuel/test_fuel.py)                               | ✅ Terminé    |
-| **Week 6** | File I/O                | _À venir_                                                                                                                                                                                                                              | ⏳ À venir    |
+| **Week 6** | File I/O                | [`lines.py`](week6/lines.py), [`pizza.py`](week6/pizza.py), [`scourgify.py`](week6/scourgify.py), [`shirt.py`](week6/shirt.py)                                                                                                        | ✅ Terminé    |
 | **Week 7** | Regular Expressions     | _À venir_                                                                                                                                                                                                                              | ⏳ À venir    |
 | **Week 8** | Object-Oriented Prog.   | _À venir_                                                                                                                                                                                                                              | ⏳ À venir    |
 | **Week 9** | Et Cetera / Final Proj. | _À venir_                                                                                                                                                                                                                              | ⏳ À venir    |
@@ -152,10 +152,10 @@ Concepts avancés : `set`, compréhensions, générateurs, itérateurs, lambda, 
 
 | Exercice          | Description                                                                 | Fichier   | Difficulté |
 | ----------------- | --------------------------------------------------------------------------- | --------- | ---------- |
-| **Lines of Code** | Compte les lignes de code Python d'un fichier (sans commentaires ni blancs) | _À venir_ | —          |
-| **Pizza Py**      | Génère un tableau ASCII d'une carte de pizza à partir d'un CSV              | _À venir_ | —          |
-| **Scourgify**     | Reformate un fichier CSV (nom/prénom) vers un nouveau format                | _À venir_ | —          |
-| **CS50 P-Shirt**  | Superpose un t-shirt CS50 sur une photo avec `Pillow`                       | _À venir_ | —          |
+| **Lines of Code** | Compte les lignes de code Python d'un fichier (sans commentaires ni blancs) | [`lines.py`](week6/lines.py)       | ⭐⭐       |
+| **Pizza Py**      | Génère un tableau ASCII d'une carte de pizza à partir d'un CSV              | [`pizza.py`](week6/pizza.py)       | ⭐⭐       |
+| **Scourgify**     | Reformate un fichier CSV (nom/prénom) vers un nouveau format                | [`scourgify.py`](week6/scourgify.py) | ⭐⭐     |
+| **CS50 P-Shirt**  | Superpose un t-shirt CS50 sur une photo avec `Pillow`                       | [`shirt.py`](week6/shirt.py)       | ⭐⭐⭐     |
 
 ### Week 7 - Regular Expressions
 
@@ -250,4 +250,4 @@ Concepts avancés : `set`, compréhensions, générateurs, itérateurs, lambda, 
 
 ---
 
-_Dernière mise à jour : Mars 2026_
+_Dernière mise à jour : Avril 2026_
