@@ -2,7 +2,7 @@
 
 [![CS50P](https://img.shields.io/badge/CS50P-Harvard-crimson)](https://cs50.harvard.edu/python/)
 [![edX](https://img.shields.io/badge/Platform-edX-blue)](https://www.edx.org/learn/python/harvard-university-cs50-s-introduction-to-programming-with-python)
-[![Progress](https://img.shields.io/badge/Progress-80%25-green)](#progression)
+[![Progress](https://img.shields.io/badge/Progress-90%25-green)](#progression)
 
 ## 📖 À propos
 
@@ -70,7 +70,7 @@ Concepts avancés : `set`, compréhensions, générateurs, itérateurs, lambda, 
 | **Week 5** | Unit Tests              | [`test_twttr.py`](week5/test_twttr/test_twttr.py), [`test_bank.py`](week5/test_bank/test_bank.py), [`test_plates.py`](week5/test_plates/test_plates.py), [`test_fuel.py`](week5/test_fuel/test_fuel.py)                               | ✅ Terminé    |
 | **Week 6** | File I/O                | [`lines.py`](week6/lines.py), [`pizza.py`](week6/pizza.py), [`scourgify.py`](week6/scourgify.py), [`shirt.py`](week6/shirt.py)                                                                                                        | ✅ Terminé    |
 | **Week 7** | Regular Expressions     | [`numb3rs.py`](week7/numb3rs/numb3rs.py), [`watch.py`](week7/watch/watch.py), [`working.py`](week7/working/working.py), [`um.py`](week7/um/um.py), [`response.py`](week7/response/response.py)                                        | ✅ Terminé    |
-| **Week 8** | Object-Oriented Prog.   | _À venir_                                                                                                                                                                                                                              | ⏳ À venir    |
+| **Week 8** | Object-Oriented Prog.   | [`seasons.py`](week8/seasons/seasons.py), [`jar.py`](week8/jar/jar.py), [`shirtificate.py`](week8/shirtificate/shirtificate.py)                                                                                                        | ✅ Terminé    |
 | **Week 9** | Et Cetera / Final Proj. | _À venir_                                                                                                                                                                                                                              | ⏳ À venir    |
 
 ## 🛠️ Détail des exercices
@@ -173,11 +173,11 @@ Concepts avancés : `set`, compréhensions, générateurs, itérateurs, lambda, 
 
 **📝 Problem Set :** [https://cs50.harvard.edu/python/2022/psets/8/](https://cs50.harvard.edu/python/2022/psets/8/)
 
-| Exercice              | Description                                                        | Fichier   | Difficulté |
-| --------------------- | ------------------------------------------------------------------ | --------- | ---------- |
-| **Seasons of Love**   | Calcule et affiche en lettres le nombre de minutes depuis une date | _À venir_ | —          |
-| **Cookie Jar**        | Implémente une classe `Jar` pour gérer un pot à biscuits           | _À venir_ | —          |
-| **CS50 Shirtificate** | Génère un PDF personnalisé avec un t-shirt CS50 en utilisant `fpdf2` | _À venir_ | —        |
+| Exercice              | Description                                                          | Fichier                                                                | Difficulté |
+| --------------------- | -------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------- |
+| **Seasons of Love**   | Calcule et affiche en lettres le nombre de minutes depuis une date   | [`seasons.py`](week8/seasons/seasons.py)                               | ⭐⭐⭐     |
+| **Cookie Jar**        | Implémente une classe `Jar` pour gérer un pot à biscuits             | [`jar.py`](week8/jar/jar.py)                                           | ⭐⭐       |
+| **CS50 Shirtificate** | Génère un certificat PDF personnalisé avec `fpdf2`                   | [`shirtificate.py`](week8/shirtificate/shirtificate.py)                | ⭐⭐       |
 
 ### Week 9 - Et Cetera / Projet final
 
