@@ -2,7 +2,7 @@
 
 [![CS50P](https://img.shields.io/badge/CS50P-Harvard-crimson)](https://cs50.harvard.edu/python/)
 [![edX](https://img.shields.io/badge/Platform-edX-blue)](https://www.edx.org/learn/python/harvard-university-cs50-s-introduction-to-programming-with-python)
-[![Progress](https://img.shields.io/badge/Progress-90%25-green)](#progression)
+[![Progress](https://img.shields.io/badge/Progress-100%25-brightgreen)](#progression)
 
 ## 📖 À propos
 
@@ -71,7 +71,7 @@ Concepts avancés : `set`, compréhensions, générateurs, itérateurs, lambda, 
 | **Week 6** | File I/O                | [`lines.py`](week6/lines.py), [`pizza.py`](week6/pizza.py), [`scourgify.py`](week6/scourgify.py), [`shirt.py`](week6/shirt.py)                                                                                                        | ✅ Terminé    |
 | **Week 7** | Regular Expressions     | [`numb3rs.py`](week7/numb3rs/numb3rs.py), [`watch.py`](week7/watch/watch.py), [`working.py`](week7/working/working.py), [`um.py`](week7/um/um.py), [`response.py`](week7/response/response.py)                                        | ✅ Terminé    |
 | **Week 8** | Object-Oriented Prog.   | [`seasons.py`](week8/seasons/seasons.py), [`jar.py`](week8/jar/jar.py), [`shirtificate.py`](week8/shirtificate/shirtificate.py)                                                                                                        | ✅ Terminé    |
-| **Week 9** | Et Cetera / Final Proj. | _À venir_                                                                                                                                                                                                                              | ⏳ À venir    |
+| **Week 9** | Et Cetera / Final Proj. | [`project.py`](week9/project.py), [`test_project.py`](week9/test_project.py), package [`immoscope/`](week9/immoscope/)                                                                                                                 | ✅ Terminé    |
 
 ## 🛠️ Détail des exercices
 
@@ -183,71 +183,55 @@ Concepts avancés : `set`, compréhensions, générateurs, itérateurs, lambda, 
 
 **📝 Final Project :** [https://cs50.harvard.edu/python/2022/project/](https://cs50.harvard.edu/python/2022/project/)
 
-| Projet            | Description                         | Repository | Difficulté |
-| ----------------- | ----------------------------------- | ---------- | ---------- |
-| **Final Project** | Projet personnel Python — À venir   | _À venir_  | —          |
+| Projet            | Description                                                                                                                  | Fichier                                  | Difficulté |
+| ----------------- | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- | ---------- |
+| **ImmoScope**     | Outil d'analyse de portefeuille immobilier (KPI financiers, détection d'anomalies, dashboard `rich` et rapport PDF)          | [`week9/`](week9/)                       | ⭐⭐⭐⭐   |
+
+#### 🏢 ImmoScope — analyse de portefeuille immobilier suisse
+
+ImmoScope est un outil en ligne de commande qui analyse un portefeuille immobilier exporté
+depuis l'ERP **Quorum** (format Excel multi-feuilles), calcule les KPI financiers utiles aux
+régies, détecte les anomalies et produit à la fois un **dashboard terminal** coloré et un
+**rapport PDF** prêt à archiver.
+
+Le projet répond à un besoin réel rencontré dans le cadre de mon **travail de bachelor** chez
+**Bobst Régie Immobilière** (Yverdon-les-Bains) : remplacer une analyse manuelle longue et
+sujette aux erreurs par un script reproductible en moins de trois secondes.
+
+**🎬 Vidéo de démonstration :** disponible sur demande — contactez-moi en privé.
+
+**Fonctionnalités clés**
+
+- **Ingestion** Excel multi-feuilles (Immeubles / Lots / Baux / Transactions) avec validation de schéma (`pandas` + `openpyxl`)
+- **KPI** : revenus annuels, NOI, rendements brut/net, taux de vacance, loyer moyen au m² par ville, classements top/bottom des immeubles
+- **Détection d'anomalies** : loyer sous le marché, charges excessives, vacance prolongée, loyer mensuel manquant — avec validation regex des identifiants de lot (`^LOT-\d{3}-\d{2}$`)
+- **Dashboard terminal** rendu avec `rich` (panneaux, tableaux, codes couleurs par sévérité)
+- **Rapport PDF** paginé avec `reportlab` + `matplotlib` (page de garde, synthèse, graphiques, tableau d'anomalies)
+- **Formatage suisse** des montants (`CHF 1'850.00`)
+- **Données de démo** générées avec `faker` (anomalies plantées) pour permettre une exécution sans données réelles
+
+**Démarrage rapide**
+
+```bash
+cd week9
+python -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+
+# Génère un portefeuille de démo
+python project.py --generate-sample data/portfolio_demo.xlsx
+
+# Lance l'analyse complète (dashboard + PDF)
+python project.py data/portfolio_demo.xlsx
+
+# Tests unitaires
+pytest -v
+```
+
+📚 Documentation détaillée : [`week9/README.md`](week9/README.md)
 
 ## 🔗 Ressources
 
 - [**Cours CS50P**](https://cs50.harvard.edu/python/) - Site officiel
 - [**edX Platform**](https://www.edx.org/learn/python/harvard-university-cs50-s-introduction-to-programming-with-python) - Plateforme d'apprentissage
 - [**CS50.dev**](https://cs50.dev/) - Environnement de développement cloud
-- [**Documentation Python**](https://docs.python.org/3/) - Référence officielle
-- [**PyPI**](https://pypi.org/) - Index des bibliothèques Python
-
-## 💡 Compétences développées
-
-### Fondamentaux Python
-
-- **Fonctions et variables** : Définition, arguments, valeurs de retour, portée
-- **Types de données** : `str`, `int`, `float`, `bool`, listes, dictionnaires, tuples
-- **Entrées/sorties** : `input()`, `print()`, f-strings, formatage
-- **Modules** : Import, création et réutilisation de modules
-
-### Structures de contrôle
-
-- **Conditionnelles** : `if/elif/else`, expressions booléennes, `match/case`
-- **Boucles** : `while`, `for`, `break`, `continue`, compréhensions de listes
-- **Validation d'entrées** : Boucles de validation robuste, gestion des cas limites
-
-### Gestion des erreurs
-
-- **Exceptions** : `try/except/else/finally`, exceptions intégrées Python
-- **Exceptions personnalisées** : Création et levée d'exceptions métier
-- **Robustesse** : Écriture de code résistant aux entrées invalides
-
-### Bibliothèques et APIs
-
-- **Bibliothèques standard** : `random`, `statistics`, `sys`, `re`, `csv`
-- **Bibliothèques tierces** : `requests`, `emoji`, `pyfiglet`, `Pillow`, `fpdf2`
-- **APIs REST** : Requêtes HTTP, parsing JSON, intégration de services externes
-
-### Tests unitaires
-
-- **pytest** : Écriture de tests, assertions, organisation des suites de tests
-- **Test-Driven Development** : Approche par les tests, couverture de code
-- **Régression** : Détection précoce des bugs par les tests automatisés
-
-### Manipulation de fichiers
-
-- **Fichiers texte** : Lecture, écriture, modes d'ouverture
-- **CSV** : Parsing et génération avec le module `csv`
-- **Images** : Manipulation avec `Pillow` (PIL), composition d'images
-- **PDF** : Génération de documents avec `fpdf2`
-
-### Expressions régulières
-
-- **Patterns** : `.`, `*`, `+`, `?`, `[]`, `^`, `$`, groupes de capture
-- **Module `re`** : `search`, `match`, `findall`, `sub`, flags
-- **Applications** : Validation d'emails, URLs, formats de dates, nettoyage de texte
-
-### Programmation orientée objet
-
-- **Classes et instances** : Attributs, méthodes, `__init__`, `self`
-- **Héritage** : Sous-classes, `super()`, polymorphisme
-- **Propriétés** : `@property`, getters/setters, encapsulation
-- **Méthodes spéciales** : `__str__`, `__repr__`, `__len__`, surcharge d'opérateurs
-
----
-
-_Dernière mise à jour : Avril 2026_
+- [**Documentation Python**](https://docs.pyt
